@@ -18,20 +18,23 @@ MODULAR ARCHITECTURE: Clean separation of concerns using model, service, and uti
 The project follows a strict Modular Design pattern as per Lab 2 & 5 guidelines:
 
 StudentManagementSystem/
+
+
 ├── src/
 │   ├── main/
-│   │   └── Main.java                       <- Entry point (Menu System)
+│   │   └── Main.java                        <- Entry point (Menu System)
 │   ├── model/
-│   │   ├── Person.java                     <- Abstract Base Class
-│   │   └── Student.java                    <- Concrete Data Class
+│   │   ├── Person.java                      <- Abstract Base Class
+│   │   └── Student.java                     <- Concrete Data Class
 │   ├── service/
-│   │   ├── RecordActions.java              <- Interface for CRUD Operations
-│   │   └── StudentManager.java             <- Business Logic & File I/O
+│   │   ├── RecordActions.java               <- Interface for CRUD Operations
+│   │   └── StudentManager.java              <- Business Logic & File I/O
 │   └── util/
-│       ├── Loader.java                     <- Multithreading Simulation
-│       └── StudentNotFoundException.java   <- Custom Exception
-├── students.txt                            <- Data storage file
-└── README.md                               <- This File
+│       ├── Loader.java                      <- Multithreading Simulation
+│       └── StudentNotFoundException.java    <- Custom Exception
+├── students.txt                             <- Data storage file
+└── README.md                                <- This File
+
 🛠️ Concepts Implemented
 This project successfully integrates the learning outcomes from all 5 Lab Assignments:
 
